@@ -684,8 +684,6 @@ class HomeController extends GetxController {
 
 
 
-      File('$ubuntuPath/root/.local/bin/uv').existsSync();
-
 
   Future<bool> _waitForPortAvailable(int port) async {
     for (var attempt = 0; attempt < 12; attempt++) {
